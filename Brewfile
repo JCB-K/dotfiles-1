@@ -15,6 +15,7 @@ brew 'fzf'
 brew 'hub'
 brew 'mongodb'
 brew 'zsh-syntax-highlighting'
+brew 'z'
 
 cask '1password'
 cask 'garmin-express'

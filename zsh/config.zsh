@@ -37,3 +37,22 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
+
+if [ -f /opt/local/etc/bash_completion ]; then
+    . /opt/local/etc/bash_completion
+fi
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+zstyle ':completion:*' hosts off
+setopt extended_glob
+ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+plugins=(git osx)
+source $ZSH/oh-my-zsh.sh
+
+. /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
+function precmd () {
+  z --add "$(pwd -P)"
+}
+

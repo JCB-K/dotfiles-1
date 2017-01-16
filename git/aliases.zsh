@@ -21,3 +21,19 @@ alias gcb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
+
+alias gs='git status'
+alias gm='git commit -m'
+alias gl='git log --oneline'
+alias gu='git up'
+alias server='python -m SimpleHTTPServer'
+alias br='git br'
+alias gitroot='cd \`git rev-parse --git-dir\`; cd ..'
+
+fbr() {
+  local branches branch
+  branches=$(git branch) &&
+  branch=$(echo "$branches" | fzf-tmux -h 15 +m) &&
+  git checkout $(echo "$branch" | sed "s/.* //")
+}
+
