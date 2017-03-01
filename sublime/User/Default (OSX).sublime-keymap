@@ -1,0 +1,8 @@
+[
+        //python
+		// { "keys": ["super+alt+up"], "command": "anaconda_goto" },
+        // { "keys": ["super+alt+down"], "command": "anaconda_find_usages" },
+        { "keys": ["super+alt+up"], "command": "goto_definition" },
+		{ "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 10.0} },
+		{ "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -10.0} }
+]

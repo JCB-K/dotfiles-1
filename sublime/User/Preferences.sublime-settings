@@ -1,0 +1,95 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		},
+		{
+			"characters": ".",
+			"selector": "source.python - string - comment - constant.numeric"
+		}
+	],
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.pyc",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/Users/jacob.klapwijk/src/graphene/.eggs/**",
+		"__pycache__/**",
+		"node_modules/**"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"default_line_ending": "unix",
+	"drag_text": false,
+	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*.eot",
+		"*.ttf",
+		"*.svg",
+		"*.woff",
+		"*.otf",
+		".DS_Store",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"_build",
+		"dist",
+		"build",
+		"site",
+		".venv",
+		".sass-cache",
+		".vagrant"
+	],
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		".DS_Store",
+		"Anaconda",
+		"Sass",
+		"Solarized Color Scheme",
+		"SublimeLinter-pylint",
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.min.js",
+		"*.log",
+		"*.pyc"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"sublimelinter_delay": 500,
+	"tab_size": 2,
+	"theme": "Material Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

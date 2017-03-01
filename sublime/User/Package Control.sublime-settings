@@ -1,0 +1,42 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Babel",
+		"Base16 Color Schemes",
+		"ColorPick",
+		"Copy Python Path",
+		"DashDoc",
+		"Djaneiro",
+		"EasyMotion",
+		"Elm Language Support",
+		"Emmet",
+		"GitGutter",
+		"GitHubinator",
+		"Hayaku - tools for writing CSS faster",
+		"isort",
+		"LESS",
+		"Materialize",
+		"Package Control",
+		"Pretty JSON",
+		"Project Specific Syntax Settings",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-contrib-elm-make",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-flow",
+		"SublimeLinter-pylint",
+		"Syntax Highlighting for Sass",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"Web Inspector"
+	]
+}
