@@ -42,8 +42,6 @@ if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
 
-source /usr/local/opt/fzf/shell/key-bindings.zsh
-
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 zstyle ':completion:*' hosts off
@@ -58,3 +56,4 @@ function precmd () {
   z --add "$(pwd -P)"
 }
 
+source /usr/local/opt/fzf/shell/key-bindings.zsh
