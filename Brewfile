@@ -17,6 +17,7 @@ brew 'mongodb'
 brew 'zsh-syntax-highlighting'
 brew 'z'
 
+
 cask '1password'
 cask 'garmin-express'
 cask 'google-chrome'
@@ -32,3 +33,4 @@ cask 'spotify'
 cask 'dropbox'
 cask 'iterm2'
 cask 'spectacle'
+cask 'google-cloud-sdk' 
