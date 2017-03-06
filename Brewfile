@@ -29,8 +29,10 @@ cask 'spotify'
 cask 'dropbox'
 cask 'iterm2'
 cask 'spectacle'
+cask 'google-cloud-sdk'
 
 ## comment out following for work computers
 cask 'garmin-express'
 cask 'transmission'
 cask 'vlc'
+cask 'plex-media-server'
