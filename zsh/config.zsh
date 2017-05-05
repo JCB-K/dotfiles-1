@@ -46,7 +46,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 zstyle ':completion:*' hosts off
 setopt extended_glob
-export ZSH=/Users/jacob/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=(git osx)
 source $ZSH/oh-my-zsh.sh
