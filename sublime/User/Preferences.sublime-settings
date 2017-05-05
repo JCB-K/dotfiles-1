@@ -39,7 +39,7 @@
 	"caret_extra_top": 2,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties (SL).tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"draw_white_space": "all",
@@ -73,7 +73,6 @@
 	"ignored_packages":
 	[
 		".DS_Store",
-		"Anaconda",
 		"Sass",
 		"Solarized Color Scheme",
 		"SublimeLinter-pylint",

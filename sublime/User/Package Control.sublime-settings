@@ -6,7 +6,6 @@
 	],
 	"installed_packages":
 	[
-		"Anaconda",
 		"Babel",
 		"Base16 Color Schemes",
 		"ColorPick",
@@ -18,8 +17,10 @@
 		"Emmet",
 		"GitGutter",
 		"GitHubinator",
+		"GraphQL",
 		"Hayaku - tools for writing CSS faster",
 		"isort",
+		"JsPrettier",
 		"LESS",
 		"Materialize",
 		"Package Control",
@@ -32,7 +33,6 @@
 		"SublimeLinter-contrib-elm-make",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-stylelint",
-		"SublimeLinter-flow",
 		"SublimeLinter-pylint",
 		"Syntax Highlighting for Sass",
 		"Theme - Spacegray",
