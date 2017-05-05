@@ -1,0 +1,20 @@
+#/usr/bin/env bash
+# MIT © Sindre Sorhus - sindresorhus.com
+# forked by naXa! - naxa.by
+
+# Git hook to run a command after `git checkout` if a specified file was changed.
+# Run `chmod +x post-merge` to make it executable then put it into `.git/hooks/`.
+
+# terminate gracefully on a file checkout (retrieving a file from the index)
+# uncomment the below line if you don't want to run this hook on a file checkout (for example on git->revert in IntelliJ IDEA)
+# [ $3 -eq 0 ] && { exit 0; }
+
+changed_files="$(git diff-tree -r --name-only --no-commit-id $1 $2)"
+
+check_run() {
+  echo "$changed_files" | egrep --quiet "$1" && echo "$2"
+}
+
+check_run yarn.lock "Run `yarn install`"
+
+exit 0;
